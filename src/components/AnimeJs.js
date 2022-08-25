@@ -275,6 +275,7 @@ export default class AnimeJs extends Component {
   render() {
     return (
       <div className="mb-[1000px]">
+        <h1 className="text-6xl my-5 ">Anime Js</h1>
         {/* css / node */}
         <div className="bg-slate-100 h-80 p-6">
           <h3 className="text-xl font-semibold">NodeList</h3>
