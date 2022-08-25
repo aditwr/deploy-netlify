@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import anime from "animejs"; // anime = funtion anime({..}){...}
 import React, { Component } from "react";
 
@@ -26,7 +27,6 @@ export default class AnimeJs extends Component {
     });
 
     // Target: Javascript Object
-    const loadEl = document.querySelector(".loader-info");
     let load = this.state;
     anime({
       targets: load,
